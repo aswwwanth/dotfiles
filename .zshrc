@@ -7,7 +7,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 alias zshconfig="code ~/.zshrc"
-alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias dotfiles-git="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
 export PATH=$HOME/flutter/bin:$PATH
