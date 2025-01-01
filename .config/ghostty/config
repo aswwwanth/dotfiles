@@ -1,0 +1,5 @@
+theme = "Hurtado"
+macos-non-native-fullscreen = true
+macos-titlebar-style = tabs
+window-save-state = never
+quit-after-last-window-closed = true
